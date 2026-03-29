@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Frazzo Media — Google Ads, Short Video Content, UI/UX Design & Social Media Management. We grow your brand digitally." />
+  <title>Frazzo Media — Digital Growth Agency</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ══ CUSTOM CURSOR ══ -->
+  <div id="cursor-dot"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- ══ PRELOADER ══ -->
+  <div id="preloader">
+    <div class="pre-inner">
+      <div class="pre-logo-wrap">
+        <svg class="pre-logo-svg" viewBox="0 0 300 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <text class="pre-svg-text" x="0" y="50" font-family="'Bebas Neue',sans-serif" font-size="56" fill="none" stroke="#00f0ff" stroke-width="0.8" letter-spacing="6">FRAZZO</text>
+        </svg>
+        <div class="pre-media-word">MEDIA</div>
+      </div>
+      <div class="pre-line-wrap"><div class="pre-line"></div></div>
+      <div class="pre-counter"><span id="preCounter">0</span><span>%</span></div>
+    </div>
+  </div>
+
+  <!-- ══ NAV ══ -->
+  <nav id="navbar">
+    <a href="#hero" class="nav-logo">FRAZZO<span>MEDIA</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#services" data-text="Services">Services</a></li>
+      <li><a href="#analytics" data-text="Analytics">Analytics</a></li>
+      <li><a href="#process" data-text="Process">Process</a></li>
+      <li><a href="#reviews" data-text="Reviews">Reviews</a></li>
+      <li><a href="#contact" class="nav-cta">Let's Talk</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ══ HERO ══ -->
+  <section id="hero">
+    <canvas id="heroCanvas"></canvas>
+    <div class="hero-grid-lines" aria-hidden="true"></div>
+    <div class="hero-content">
+      <div class="hero-eyebrow reveal-hero">Digital Growth Agency</div>
+      <h1 class="hero-title">
+        <span class="ht-line reveal-hero" data-delay="0">We Don't Just</span>
+        <span class="ht-line ht-accent reveal-hero" data-delay="1">Manage.</span>
+        <span class="ht-line reveal-hero" data-delay="2">We Dominate.</span>
+      </h1>
+      <p class="hero-sub reveal-hero" data-delay="3">Google Ads · Short Video · UI/UX Design · Social Media — all under one roof, engineered for results.</p>
+      <div class="hero-btns reveal-hero" data-delay="4">
+        <a href="#services" class="btn-primary"><span>Explore Services</span><i class="btn-arrow">→</i></a>
+        <a href="#contact" class="btn-ghost">Get a Free Audit</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <div class="hsi-track"><div class="hsi-thumb"></div></div>
+      <span>SCROLL</span>
+    </div>
+    <div class="hero-badge">
+      <div class="hb-ring"></div>
+      <div class="hb-inner">
+        <span class="hb-num">100+</span>
+        <span class="hb-label">Brands<br>Scaled</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ MARQUEE ══ -->
+  <div class="marquee-wrap" aria-hidden="true">
+    <div class="marquee-track" id="marqueeTrack">
+      <span>Google Ads</span><span class="mx">✦</span>
+      <span>Short Video Content</span><span class="mx">✦</span>
+      <span>Figma UI/UX Design</span><span class="mx">✦</span>
+      <span>Social Media Management</span><span class="mx">✦</span>
+      <span>Instagram Growth</span><span class="mx">✦</span>
+      <span>TikTok Strategy</span><span class="mx">✦</span>
+      <span>YouTube Shorts</span><span class="mx">✦</span>
+      <span>Brand Identity</span><span class="mx">✦</span>
+      <span>Google Ads</span><span class="mx">✦</span>
+      <span>Short Video Content</span><span class="mx">✦</span>
+      <span>Figma UI/UX Design</span><span class="mx">✦</span>
+      <span>Social Media Management</span><span class="mx">✦</span>
+      <span>Instagram Growth</span><span class="mx">✦</span>
+      <span>TikTok Strategy</span><span class="mx">✦</span>
+      <span>YouTube Shorts</span><span class="mx">✦</span>
+      <span>Brand Identity</span><span class="mx">✦</span>
+    </div>
+  </div>
+
+  <!-- ══ SERVICES ══ -->
+  <section id="services">
+    <div class="section-head reveal">
+      <div class="section-tag">What We Do</div>
+      <h2 class="section-title">Services Built<br>for <em>Real Growth</em></h2>
+    </div>
+    <div class="services-grid">
+
+      <div class="svc-card reveal" data-delay="0">
+        <div class="svc-num">01</div>
+        <div class="svc-icon-wrap">
+          <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="1.5"/><path d="M16 24h16M24 16l8 8-8 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3 class="svc-name">Google Ads Management</h3>
+        <p class="svc-desc">Data-driven campaigns that put your brand in front of the right people at the right moment. We handle Search, Display, Shopping & YouTube Ads — every rupee tracked.</p>
+        <ul class="svc-list">
+          <li>Campaign Setup & Strategy</li>
+          <li>A/B Ad Copy Testing</li>
+          <li>Conversion Tracking</li>
+          <li>Monthly Performance Reports</li>
+        </ul>
+        <div class="svc-glow"></div>
+      </div>
+
+      <div class="svc-card reveal" data-delay="1">
+        <div class="svc-num">02</div>
+        <div class="svc-icon-wrap">
+          <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="8" width="32" height="32" rx="6" stroke="currentColor" stroke-width="1.5"/><path d="M20 18l10 6-10 6V18z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+        </div>
+        <h3 class="svc-name">Short Video Content</h3>
+        <p class="svc-desc">Scroll-stopping Reels, TikToks & YouTube Shorts — scripted, shot-listed, edited and optimized to go viral and drive real followers to real sales.</p>
+        <ul class="svc-list">
+          <li>Script & Storyboard</li>
+          <li>Pro Editing & Captions</li>
+          <li>Trend-Led Strategy</li>
+          <li>Cross-Platform Publishing</li>
+        </ul>
+        <div class="svc-glow"></div>
+      </div>
+
+      <div class="svc-card reveal" data-delay="2">
+        <div class="svc-num">03</div>
+        <div class="svc-icon-wrap">
+          <svg viewBox="0 0 48 48" fill="none"><rect x="6" y="10" width="36" height="28" rx="4" stroke="currentColor" stroke-width="1.5"/><circle cx="24" cy="24" r="6" stroke="currentColor" stroke-width="1.5"/><circle cx="35" cy="15" r="2" fill="currentColor"/></svg>
+        </div>
+        <h3 class="svc-name">Figma UI/UX Design</h3>
+        <p class="svc-desc">Beautiful, conversion-optimised interfaces — from landing pages to full app experiences. We design in Figma, prototype interactions, and hand off dev-ready files.</p>
+        <ul class="svc-list">
+          <li>Wireframes & Prototypes</li>
+          <li>Mobile + Web Design</li>
+          <li>Design System Creation</li>
+          <li>Dev Handoff (Figma)</li>
+        </ul>
+        <div class="svc-glow"></div>
+      </div>
+
+      <div class="svc-card reveal" data-delay="3">
+        <div class="svc-num">04</div>
+        <div class="svc-icon-wrap">
+          <svg viewBox="0 0 48 48" fill="none"><path d="M24 8c-8.8 0-16 7.2-16 16s7.2 16 16 16 16-7.2 16-16S32.8 8 24 8z" stroke="currentColor" stroke-width="1.5"/><path d="M8 24h32M24 8c-4 4-6 9-6 16s2 12 6 16M24 8c4 4 6 9 6 16s-2 12-6 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+        <h3 class="svc-name">Social Media Management</h3>
+        <p class="svc-desc">Full-service account management across Instagram, TikTok, Facebook & more. We plan, create, schedule and engage — so your brand is always present, always growing.</p>
+        <ul class="svc-list">
+          <li>Content Calendar Planning</li>
+          <li>Daily Posting & Stories</li>
+          <li>Community Engagement</li>
+          <li>Analytics & Growth Reports</li>
+        </ul>
+        <div class="svc-glow"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══ ANALYTICS SECTION ══ -->
+  <section id="analytics">
+    <div class="analytics-bg" aria-hidden="true"></div>
+    <div class="section-head reveal">
+      <div class="section-tag">By The Numbers</div>
+      <h2 class="section-title">Results That<br><em>Speak Loudly</em></h2>
+    </div>
+    <div class="analytics-layout">
+      <div class="analytics-cards">
+        <div class="an-card reveal" data-delay="0">
+          <div class="an-chart" id="chartROAS">
+            <canvas id="roasCanvas" width="200" height="200"></canvas>
+            <div class="an-chart-label"><span class="an-big" data-target="4.8">0</span><span class="an-unit">×</span></div>
+          </div>
+          <div class="an-info">
+            <div class="an-title">Avg. ROAS</div>
+            <div class="an-sub">Return on Ad Spend across Google campaigns</div>
+          </div>
+        </div>
+        <div class="an-card reveal" data-delay="1">
+          <div class="an-chart">
+            <canvas id="engCanvas" width="200" height="200"></canvas>
+            <div class="an-chart-label"><span class="an-big" data-target="340">0</span><span class="an-unit">%</span></div>
+          </div>
+          <div class="an-info">
+            <div class="an-title">Engagement Lift</div>
+            <div class="an-sub">Average increase after 60 days of management</div>
+          </div>
+        </div>
+        <div class="an-card reveal" data-delay="2">
+          <div class="an-chart">
+            <canvas id="convCanvas" width="200" height="200"></canvas>
+            <div class="an-chart-label"><span class="an-big" data-target="68">0</span><span class="an-unit">%</span></div>
+          </div>
+          <div class="an-info">
+            <div class="an-title">Conversion Rate</div>
+            <div class="an-sub">Avg. conversion improvement post-redesign</div>
+          </div>
+        </div>
+      </div>
+      <div class="analytics-stats reveal">
+        <div class="ast-item" data-delay="0">
+          <div class="ast-num" data-target="150">0</div>
+          <div class="ast-label">Brands Managed</div>
+          <div class="ast-bar"><div class="ast-fill" data-w="90"></div></div>
+        </div>
+        <div class="ast-item" data-delay="1">
+          <div class="ast-num" data-target="2.4">0</div>
+          <div class="ast-label">Million in Ad Spend Managed ($)</div>
+          <div class="ast-bar"><div class="ast-fill" data-w="75"></div></div>
+        </div>
+        <div class="ast-item" data-delay="2">
+          <div class="ast-num" data-target="98">0</div>
+          <div class="ast-label">Client Retention Rate (%)</div>
+          <div class="ast-bar"><div class="ast-fill" data-w="98"></div></div>
+        </div>
+        <div class="ast-item" data-delay="3">
+          <div class="ast-num" data-target="500">0</div>
+          <div class="ast-label">Videos Produced</div>
+          <div class="ast-bar"><div class="ast-fill" data-w="85"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ WHY US ══ -->
+  <section id="why">
+    <div class="why-layout">
+      <div class="why-left reveal">
+        <div class="section-tag">Why Frazzo</div>
+        <h2 class="section-title">One Agency.<br><em>Every Channel.</em><br>Zero Guesswork.</h2>
+        <p class="why-body">Most agencies specialise in one thing. We master everything your brand needs — ads, content, design and social — working in sync so your growth never stalls.</p>
+        <a href="#contact" class="btn-primary"><span>Start Growing</span><i class="btn-arrow">→</i></a>
+      </div>
+      <div class="why-right">
+        <div class="why-pill reveal" data-delay="0"><span class="wp-icon">⚡</span><div><strong>Fast Turnaround</strong><p>Most deliverables within 24–72 hrs</p></div></div>
+        <div class="why-pill reveal" data-delay="1"><span class="wp-icon">📊</span><div><strong>Data-Backed Decisions</strong><p>Every move is driven by real analytics</p></div></div>
+        <div class="why-pill reveal" data-delay="2"><span class="wp-icon">🎯</span><div><strong>Platform Specialists</strong><p>Deep expertise per platform, not generic advice</p></div></div>
+        <div class="why-pill reveal" data-delay="3"><span class="wp-icon">🔄</span><div><strong>Unlimited Revisions</strong><p>We refine until you're 100% happy</p></div></div>
+        <div class="why-pill reveal" data-delay="4"><span class="wp-icon">🤝</span><div><strong>Dedicated Account Manager</strong><p>One person. Always available. Always accountable.</p></div></div>
+        <div class="why-pill reveal" data-delay="5"><span class="wp-icon">🔒</span><div><strong>Full Transparency</strong><p>Live dashboards. No hidden fees. Ever.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ PROCESS ══ -->
+  <section id="process">
+    <div class="section-head reveal">
+      <div class="section-tag">How It Works</div>
+      <h2 class="section-title">From Zero to<br><em>Full Momentum</em></h2>
+    </div>
+    <div class="process-flow">
+      <div class="pf-line" aria-hidden="true"><div class="pf-line-fill" id="processLineFill"></div></div>
+      <div class="pf-step reveal" data-delay="0">
+        <div class="pf-node"><span>01</span></div>
+        <div class="pf-body">
+          <h3>Discovery Call</h3>
+          <p>We learn your brand, goals, audience and current gaps — no templates, no guesswork.</p>
+        </div>
+      </div>
+      <div class="pf-step reveal" data-delay="1">
+        <div class="pf-node"><span>02</span></div>
+        <div class="pf-body">
+          <h3>Custom Strategy</h3>
+          <p>A tailored growth roadmap built for your exact niche, budget and platform mix.</p>
+        </div>
+      </div>
+      <div class="pf-step reveal" data-delay="2">
+        <div class="pf-node"><span>03</span></div>
+        <div class="pf-body">
+          <h3>Execution Sprint</h3>
+          <p>Our team moves fast — ads live, content out, designs delivered within the first week.</p>
+        </div>
+      </div>
+      <div class="pf-step reveal" data-delay="3">
+        <div class="pf-node"><span>04</span></div>
+        <div class="pf-body">
+          <h3>Optimise & Scale</h3>
+          <p>Weekly reviews, constant A/B testing and aggressive scaling as results come in.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ REVIEWS ══ -->
+  <section id="reviews">
+    <div class="section-head reveal">
+      <div class="section-tag">Client Voices</div>
+      <h2 class="section-title">What Our Clients<br><em>Actually Say</em></h2>
+    </div>
+    <div class="reviews-slider-wrap">
+      <div class="reviews-track" id="reviewsTrack">
+
+        <div class="review-card">
+          <div class="rc-stars">★★★★★</div>
+          <p class="rc-text">"Frazzo Media completely transformed our Google Ads. Our ROAS went from 1.2x to 5.1x in just 8 weeks. Their team actually understands data — not just buzzwords."</p>
+          <div class="rc-author">
+            <div class="rc-avatar">AK</div>
+            <div><strong>Ahsan Khan</strong><span>E-commerce Brand Owner</span></div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="rc-stars">★★★★★</div>
+          <p class="rc-text">"Our TikTok went from 200 followers to 28K in 3 months. The short video content Frazzo produces is insane quality — our engagement rate is the highest in our niche."</p>
+          <div class="rc-author">
+            <div class="rc-avatar">SF</div>
+            <div><strong>Sara Farooq</strong><span>Lifestyle Brand Founder</span></div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="rc-stars">★★★★★</div>
+          <p class="rc-text">"The Figma designs they delivered were next level. Our app's conversion rate jumped 68% after the redesign. Worth every penny and then some."</p>
+          <div class="rc-author">
+            <div class="rc-avatar">MR</div>
+            <div><strong>Marcus Reid</strong><span>SaaS Startup CEO</span></div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="rc-stars">★★★★★</div>
+          <p class="rc-text">"Finally an agency that handles everything. I don't need to coordinate 4 different freelancers anymore. Frazzo does it all and the results are consistently incredible."</p>
+          <div class="rc-author">
+            <div class="rc-avatar">ZB</div>
+            <div><strong>Zara Bilal</strong><span>Fashion Boutique Owner</span></div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="rc-stars">★★★★★</div>
+          <p class="rc-text">"Their social media management is elite. Our Instagram went from dead to 15K engaged followers in 4 months. The content quality alone is worth the retainer."</p>
+          <div class="rc-author">
+            <div class="rc-avatar">NJ</div>
+            <div><strong>Noman Javed</strong><span>Restaurant Chain Owner</span></div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="rc-stars">★★★★★</div>
+          <p class="rc-text">"What I love most is the transparency. Live dashboards, weekly calls, no BS. Frazzo Media is the real deal — I've referred 6 other founders already."</p>
+          <div class="rc-author">
+            <div class="rc-avatar">LP</div>
+            <div><strong>Layla Patel</strong><span>D2C Brand Operator</span></div>
+          </div>
+        </div>
+
+      </div>
+      <div class="reviews-controls">
+        <button class="rc-btn" id="reviewPrev" aria-label="Previous">←</button>
+        <div class="rc-dots" id="rcDots"></div>
+        <button class="rc-btn" id="reviewNext" aria-label="Next">→</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ CTA BANNER ══ -->
+  <div class="cta-banner reveal">
+    <div class="cta-banner-bg" aria-hidden="true"></div>
+    <div class="cta-content">
+      <h2>Ready to Scale Your Brand?</h2>
+      <p>Book a free 30-minute strategy call. No pitch. Just clarity.</p>
+      <a href="#contact" class="btn-primary btn-large"><span>Book Free Strategy Call</span><i class="btn-arrow">→</i></a>
+    </div>
+  </div>
+
+  <!-- ══ CONTACT ══ -->
+  <section id="contact">
+    <div class="contact-layout">
+      <div class="contact-left reveal">
+        <div class="section-tag">Get In Touch</div>
+        <h2 class="section-title">Let's Build<br><em>Something</em><br>Legendary.</h2>
+        <p class="contact-sub">Fill in the form and our team will reach out within 24 hours with a tailored plan for your brand.</p>
+        <div class="contact-details">
+          <div class="cd-item"><span class="cd-icon">✉</span><span>hello@frazzomedia.com</span></div>
+          <div class="cd-item"><span class="cd-icon">⏱</span><span>Response within 24 hours</span></div>
+          <div class="cd-item"><span class="cd-icon">🌍</span><span>Remote-First · Available Worldwide</span></div>
+        </div>
+      </div>
+      <form class="contact-form reveal" id="contactForm" data-delay="1">
+        <div class="cf-row">
+          <div class="cf-field">
+            <label>Your Name</label>
+            <input type="text" placeholder="e.g. Ahmed Khan" required />
+          </div>
+          <div class="cf-field">
+            <label>Email Address</label>
+            <input type="email" placeholder="you@brand.com" required />
+          </div>
+        </div>
+        <div class="cf-row">
+          <div class="cf-field">
+            <label>Brand / Company</label>
+            <input type="text" placeholder="Your brand name" />
+          </div>
+          <div class="cf-field">
+            <label>Monthly Budget</label>
+            <select>
+              <option value="" disabled selected>Select range</option>
+              <option>Under $500</option>
+              <option>$500 – $2,000</option>
+              <option>$2,000 – $10,000</option>
+              <option>$10,000+</option>
+            </select>
+          </div>
+        </div>
+        <div class="cf-field cf-full">
+          <label>Service(s) Needed</label>
+          <div class="cf-chips">
+            <label class="chip"><input type="checkbox" value="Google Ads" /><span>Google Ads</span></label>
+            <label class="chip"><input type="checkbox" value="Short Video" /><span>Short Video</span></label>
+            <label class="chip"><input type="checkbox" value="UI/UX Design" /><span>UI/UX Design</span></label>
+            <label class="chip"><input type="checkbox" value="Social Media" /><span>Social Media</span></label>
+          </div>
+        </div>
+        <div class="cf-field cf-full">
+          <label>Tell Us About Your Goals</label>
+          <textarea placeholder="What are you trying to achieve in the next 90 days?" rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn-primary btn-submit"><span>Send Message</span><i class="btn-arrow">→</i></button>
+        <div class="cf-success" id="cfSuccess">✓ Message sent! We'll be in touch within 24 hours.</div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ══ FOOTER ══ -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">FRAZZO<span>MEDIA</span></div>
+        <p>Digital growth agency specialising in Google Ads, short-form video, UI/UX design and social media management.</p>
+      </div>
+      <div class="footer-links-group">
+        <div class="flg">
+          <div class="flg-title">Services</div>
+          <a href="#services">Google Ads</a>
+          <a href="#services">Short Video Content</a>
+          <a href="#services">UI/UX Design</a>
+          <a href="#services">Social Media</a>
+        </div>
+        <div class="flg">
+          <div class="flg-title">Company</div>
+          <a href="#why">Why Frazzo</a>
+          <a href="#process">Our Process</a>
+          <a href="#analytics">Results</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Frazzo Media. All rights reserved.</span>
+      <span class="footer-made">Crafted with precision ✦</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
