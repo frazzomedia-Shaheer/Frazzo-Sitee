@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frazzo Media</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="loader">
+      <div class="progress-bar" id="progress-bar"></div>
+      <span id="progress-text">0%</span>
+    </div>
+  </div>
+
+  <!-- Main content -->
+  <div id="main-content" class="hidden">
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1>FRAZZO MEDIA</h1>
+      <p>Digital Agency | Ads | Short Videos | UI/UX Design | Social Media Management</p>
+      <div class="scroll-indicator">Scroll ↓</div>
+    </section>
+
+    <!-- About / What We Do -->
+    <section class="about" data-parallax>
+      <h2>What We Do</h2>
+      <p>We help brands grow digitally. From Google Ads management to creating viral short videos for Instagram, TikTok, and YouTube Shorts. Our team ensures every campaign is optimized and effective.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" data-parallax>
+      <h2>Services</h2>
+      <div class="service-cards">
+        <div class="card">Google Ads Management</div>
+        <div class="card">Short Video Content</div>
+        <div class="card">Figma UI/UX Design</div>
+        <div class="card">Social Media Management</div>
+      </div>
+    </section>
+
+    <!-- Analysis Section -->
+    <section class="analysis" data-parallax>
+      <h2>Advanced Analytics</h2>
+      <p>We provide in-depth analysis of campaigns, social media engagement, and performance metrics to maximize ROI.</p>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews" data-parallax>
+      <h2>Client Reviews</h2>
+      <div class="review-cards">
+        <div class="review-card">"Frazzo Media boosted our brand visibility in just weeks!" – Client A</div>
+        <div class="review-card">"Their short video content strategy is phenomenal!" – Client B</div>
+        <div class="review-card">"Highly professional and results-driven agency." – Client C</div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2026 Frazzo Media. All rights reserved.</p>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

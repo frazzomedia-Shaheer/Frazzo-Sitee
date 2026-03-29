@@ -1,0 +1,158 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+}
+
+/* Body & Theme */
+body {
+  background: #0b0b0b;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+/* Preloader */
+#preloader {
+  position: fixed;
+  top:0; left:0;
+  width:100%; height:100%;
+  background: #0b0b0b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.loader {
+  text-align: center;
+}
+
+.progress-bar {
+  width: 0;
+  height: 6px;
+  background: #00ffea;
+  margin-bottom: 10px;
+  transition: width 0.2s;
+}
+
+#progress-text {
+  font-size: 16px;
+  color: #00ffea;
+}
+
+/* Hidden class for main content */
+.hidden {
+  display: none;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(120deg, #0b0b0b, #111111);
+}
+
+.hero h1 {
+  font-size: 4rem;
+  color: #00ffea;
+  letter-spacing: 3px;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  max-width: 800px;
+}
+
+.scroll-indicator {
+  margin-top: 50px;
+  font-size: 1.2rem;
+  animation: bounce 2s infinite;
+  color: #00ffea;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(15px); }
+}
+
+/* Sections */
+section {
+  padding: 100px 20px;
+  min-height: 80vh;
+  position: relative;
+  z-index: 1;
+}
+
+/* Parallax effect */
+[data-parallax] {
+  background-attachment: fixed;
+}
+
+/* Service Cards */
+.service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: #111111;
+  padding: 30px;
+  min-width: 200px;
+  text-align: center;
+  border: 2px solid #00ffea;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  background: #00ffea;
+  color: #000;
+}
+
+/* Reviews */
+.review-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.review-card {
+  background: #111111;
+  padding: 20px;
+  border-left: 4px solid #00ffea;
+  transition: transform 0.3s;
+}
+
+.review-card:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  background: #0b0b0b;
+  color: #555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+  .card {
+    min-width: 150px;
+  }
+}

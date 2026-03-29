@@ -1,0 +1,26 @@
+// Preloader
+let progressBar = document.getElementById('progress-bar');
+let progressText = document.getElementById('progress-text');
+let mainContent = document.getElementById('main-content');
+let preloader = document.getElementById('preloader');
+
+let progress = 0;
+let interval = setInterval(() => {
+  progress += 1;
+  progressBar.style.width = progress + '%';
+  progressText.innerText = progress + '%';
+  if(progress >= 100){
+    clearInterval(interval);
+    preloader.style.display = 'none';
+    mainContent.classList.remove('hidden');
+  }
+}, 20);
+
+// Parallax effect
+window.addEventListener('scroll', function(){
+  const parallaxSections = document.querySelectorAll('[data-parallax]');
+  parallaxSections.forEach(section => {
+    let offset = window.pageYOffset;
+    section.style.backgroundPositionY = offset * 0.5 + 'px';
+  });
+});
